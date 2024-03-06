@@ -1,0 +1,15 @@
+.user-container {
+  width: 120vh;
+  border-radius: 10px;
+}
+
+.user {
+  display: flex;
+  justify-content: left;
+  border: 1px solid black;
+  margin: 1rem;
+}
+
+.user h3 {
+  margin-left: 10px;
+}

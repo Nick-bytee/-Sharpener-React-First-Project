@@ -1,0 +1,45 @@
+.userForm {
+  display: flex;
+  flex-direction: column;
+}
+
+.userForm input {
+  padding: 10px;
+  margin-bottom: 1rem;
+  border-radius: 10px;
+  border: 1px solid black;
+  width: 90vh;
+}
+
+.userForm button {
+  width: 5rem;
+  height: 2rem;
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+  background-color: black;
+}
+
+.userForm h4 {
+  margin: 0;
+  margin-bottom: 1vh;
+  padding: 0;
+}
+
+.form-div {
+  background-color: white;
+  margin: 2rem;
+  border-radius: 10px;
+  width: 120vh;
+  height: 30vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
