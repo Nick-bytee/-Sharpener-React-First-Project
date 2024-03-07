@@ -10,7 +10,9 @@ const User = ({ data }) => {
         {users.length > 0 ? (
           users.map((user) => (
             <div className="user">
-              <h3 key={user.id}>{`${user.name}, (${user.age} years old)`}</h3>
+              <h3
+                key={user.id}
+              >{`${user.name}, (${user.age} years old), Studies At  ${user.college}`}</h3>
             </div>
           ))
         ) : (
